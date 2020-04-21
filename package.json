@@ -1,0 +1,22 @@
+{
+  "name": "web-srap-server",
+  "version": "1.0.0",
+  "description": "Stack Builders challenge...",
+  "author": "Héctor Veitía",
+  "scripts": {
+    "dev": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^5.0.0-alpha.7",
+    "method-override": "^2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1",
+    "supertest": "^4.0.2"
+  }
+}
